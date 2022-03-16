@@ -15,9 +15,11 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
+    "react-native-paper": "^4.11.2",
     "react-native-snackbar": "^2.4.0",
     "react-native-web": "0.17.1",
-    "rn-snackbar-component": "^0.0.5"
+    "rn-snackbar-component": "^0.0.5",
+    "expo-updates": "~0.11.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

@@ -13,7 +13,7 @@ import TaskItems from "./components/TaskItems";
 
 export default function App() {
 
-  
+
 
   return (
     <View style={{ flex: 1, backgroundColor: colors.root, marginTop: 20 }}>
@@ -114,8 +114,7 @@ export default function App() {
               alignItems: "center",
             }}>
             <View style={{position: 'absolute',  bottom:0}}>
-             <Button onPress={() => Alert.alert(
-                    'Its GeeksforGeeks !')} title="Snow Snackbar" color="#08f26e" accessibilityLabel="Tap on Me"/>
+             <Button onPress={() => Alert.alert("This is an in-app notification alertdialog to show to the user when they perform an action. Clicking it should change the text.")} title="Snow Snackbar" color="#08f26e" accessibilityLabel="Tap on Me"/>
         </View>
       </View>
       </ScrollView>
